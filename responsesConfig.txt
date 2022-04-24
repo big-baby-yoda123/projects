@@ -1,0 +1,12 @@
+// < bot answer (word) > (or) < bot action (*word*) > - < list of key words(word, ... ,word) > - < singal resp (opptional)(True or nothing) > - < required words (opptional)(word, ... ,word) >
+// example: hello! - hello, hi, hey - True - 
+// example: I\'m doing fine - how, are, you, doing, do -  - how
+
+hello! - hello, hi, hey - True - 
+I'm doing fine - how, are, you, doing -  - how, you
+*rickroll* - fuck, you, your, mom, mama - True - fuck
+*starwars* - star, wars, movie, show - True - star, wars
+*born* - how, old, are, you, when, were, born - True - old, how, you
+*russianMode* - russain, mode - True - russain, mode
+*openPlex* - open, plex, movie, night - True - plex, open
+*openNetflix* - open, Netflix - True - Netflix, open
